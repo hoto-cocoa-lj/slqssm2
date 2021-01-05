@@ -18,10 +18,11 @@
       <artifactId>slqssm2-dao</artifactId>
       <version>1.0-SNAPSHOT</version>
     </dependency>
-    <dependency>
-      <groupId>org.example</groupId>
-      <artifactId>slqssm2-pojo</artifactId>
-      <version>1.0-SNAPSHOT</version>
-    </dependency>
+<!--    dao里有pojo，不需要再导包-->
+<!--    <dependency>-->
+<!--      <groupId>org.example</groupId>-->
+<!--      <artifactId>slqssm2-pojo</artifactId>-->
+<!--      <version>1.0-SNAPSHOT</version>-->
+<!--    </dependency>-->
   </dependencies>
 </project>
